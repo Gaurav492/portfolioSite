@@ -1,0 +1,98 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+body{
+    margin: 0;
+    padding: 0;
+}
+.site-header{
+    background-color: #87bbff;
+    color: #f5fbfb;
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.site-header-content{
+    margin: 10px;
+}
+
+#mytypingText{
+    height: 70px;
+    font-size: 25px;
+}
+
+#mytypingText2{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+img{
+    transition: box-shadow .3s;
+    align-self: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.btn{
+    transition:  .3s;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #093585;
+    border-radius: 5%;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color: #093585;
+    color: white;
+}
+
+img:hover{
+    box-shadow: #444645 2px 5px 20px;
+}
+
+span{
+    color: tomato;
+}
+
+/* SOCIALS */
+
+.socials{
+    background-color: #87ffc7;
+    color: #4c4d4d;
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    width: 270px;
+    height: 270px;
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    grid-auto-flow: column;
+}
+
+i {
+    transition: .3s;
+    font-size:5px;
+    color:#ec6262;
+}
+
+i:hover{
+    text-shadow: #444645 2px 5px 10px;
+    color:#e93379;
+}
+
